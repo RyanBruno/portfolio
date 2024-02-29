@@ -22,7 +22,7 @@ const HomePage = () => {
             <img
               src={"/Profile_Picture_00002.png"}
               className="object-cover w-full h-full"
-	      alt="Profile Pic"
+              alt="Profile Pic"
             />
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
@@ -54,7 +54,7 @@ const HomePage = () => {
               <img
                 src="/IMG_3107.png"
                 alt="Project 1"
-                className="w-full object-cover object-center"
+                className="h-[30rem] w-full object-contain object-center"
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">
@@ -78,7 +78,7 @@ const HomePage = () => {
               <img
                 src="Frame_1.png"
                 alt="Project 1"
-                className="w-full object-cover object-center"
+                className="h-[30rem] w-full object-contain object-center"
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">

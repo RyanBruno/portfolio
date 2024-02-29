@@ -2,12 +2,12 @@
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
-      "command": "npm install ",
-      "name": "Installing Dependencies"
+      "name": "Installing Dependencies",
+      "command": "npm install "
     },
     {
-      "command": "npm install -g tailwindcss",
-      "name": "Installing tailwindscss"
+      "name": "Installing tailwindscss",
+      "command": "npm install -g tailwindcss"
     }
   ],
 
@@ -15,38 +15,35 @@
   "tasks": {
     "autoprefixer": {
       "name": "autoprefixer",
-      "command": "yarn autoprefixer",
-      "runAtStart": false
+      "command": "yarn autoprefixer"
     },
     "postcss": {
       "name": "postcss",
-      "command": "yarn postcss",
-      "runAtStart": false
+      "command": "yarn postcss"
     },
     "build:style": {
       "name": "build:style",
-      "command": "yarn build:style",
-      "runAtStart": false
+      "command": "yarn build:style"
     },
     "start": {
       "name": "start",
       "command": "npm run start",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 3000
+      }
     },
     "build": {
       "name": "build",
-      "command": "yarn build",
-      "runAtStart": false
+      "command": "yarn build"
     },
     "test": {
       "name": "test",
-      "command": "yarn test",
-      "runAtStart": false
+      "command": "yarn test"
     },
     "eject": {
       "name": "eject",
-      "command": "yarn eject",
-      "runAtStart": false
+      "command": "yarn eject"
     }
   }
 }
